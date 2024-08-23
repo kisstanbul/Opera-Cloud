@@ -419,6 +419,7 @@ CREATE TABLE name_phone
   , update_date DATE NOT NULL
   , inactive_date DATE
   , address_id NUMBER
+  , display_seq NUMBER  
   , primary_yn VARCHAR2 (1 BYTE)
   , chain_code VARCHAR2 (20 BYTE)
 );
