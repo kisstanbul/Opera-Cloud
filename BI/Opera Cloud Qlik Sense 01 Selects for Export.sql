@@ -255,6 +255,7 @@ SELECT phone_id
      , update_date
      , inactive_date
      , address_id
+     , display_seq
      , primary_yn
      , chain_code
 FROM name_phone;
